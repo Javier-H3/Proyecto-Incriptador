@@ -1,0 +1,183 @@
+header{
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.logo{
+    width: 250px;
+    height: auto;
+    
+}
+
+.tituloPrincipal{
+    display: inline;
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    color: rgb(12, 102, 177);
+}
+
+
+main{
+    padding: 450px ;
+    
+    width: 940px;
+    margin: auto;
+}
+
+#texto1{
+    margin: auto;
+    resize: none;
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    border-radius: 10px;
+    border-color: rgb(19, 132, 197);
+    background-color: rgba(64, 114, 190, 0.24);
+    border-width: 5px;
+    text-transform: lowercase;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#texto2{
+    margin: auto;
+    resize: none;
+    position: absolute;
+    top: 250px;
+    right: 150px;
+    border-radius: 10px;
+    border-color: rgb(19, 132, 197);
+    background-color: rgba(64, 114, 190, 0.24);
+    border-width: 5px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mensaje{
+    position: absolute;
+    top: 860px;
+    left: 180px;
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(132, 144, 153);
+}
+
+#enviar{
+    position: absolute;
+    top: 950px;
+    left: 150px;
+    width: 10%;
+    height: 60px;
+    font-size: 30px;
+    font-weight: lighter;
+    color: aliceblue;
+    background-color: rgb(12, 79, 156);
+    border-radius: 30px;
+    border-color: rgb(13, 78, 151);
+    transition: 1s background;
+    cursor: pointer;
+}
+
+#enviar:hover{
+    background-color:rgb(7, 57, 114);
+    transform: scale(1.1);
+}
+
+#desencriptar{
+    position: absolute;
+    top: 950px;
+    left: 430px;
+    width: 10%;
+    height: 60px;
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(13, 78, 151);
+    background-color: rgba(58, 106, 179, 0.24);
+    border-radius: 30px;
+    border-color: rgb(106, 152, 206);
+    transition: 1s background;
+    cursor: pointer;
+}
+
+#desencriptar:hover{
+    background-color: rgba(34, 72, 129, 0.24);
+    transform: scale(1.1);
+}
+
+#copiar{
+    position: absolute;
+    top: 900px;
+    right: 330px;
+    width: 10%;
+    height: 60px;
+    font-size: 30px;
+    font-weight: lighter;
+    color: rgb(16, 51, 71);
+    background-color: rgb(250, 250, 250);
+    border-radius: 30px;
+    border-color: rgb(55, 112, 177);
+    transition: 1s background;
+    cursor: pointer;
+}
+
+#copiar:hover{
+    background-color: rgba(213, 215, 218, 0.541);
+    transform: scale(1.1);
+}
+
+#tesla{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 500px;
+    right: 260px;
+}
+
+footer{
+    padding: 60px 60px;
+    text-align: center;
+    align-items: center;
+}
+
+#github{
+    font-size:48px;
+    color:rgb(112, 38, 119);
+
+}
+
+@keyframes vibration {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(-1px, 1px); }
+    50% { transform: translate(1px, -1px); }
+    75% { transform: translate(-1px, 1px); }
+    100% { transform: translate(0, 0); }
+  }
+
+#github:hover {
+    animation: vibration 0.8s ease-in-out infinite;
+  }
+
+#linkedin{
+    font-size: 46px;
+    margin-left: 10px;
+    color: rgb(112, 38, 119);
+  }
+
+#linkedin:hover{
+    animation: vibration 0.8s ease-in-out infinite;
+}
+
+  p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(5, 68, 150);
+}
+
+

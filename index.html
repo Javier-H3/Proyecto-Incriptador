@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">                        
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <title>Proyecto Incriptador</title>
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="imagenes/Frame 6.png" alt="logoPrincipal">
+        <h1 class="tituloPrincipal">Proyecto Incriptador</h1>
+    </header>
+
+    <main>
+        <section class="principal">
+            <textarea id="texto1" cols="36" rows="23"placeholder="Ingresa el texto aca"></textarea>
+            
+            <textarea id="texto2" cols="60" rows="9"></textarea>
+
+        </section>
+
+        <div class="mensaje">
+            <p>&#x26A0 Solo letras minúsculas y sin acentos.<p>
+        </div>
+            
+        <section class="botones">
+            <button onclick="encriptarTexto()" id = "enviar">Encriptar</button>
+            <button onclick="desencriptarTexto()" id="desencriptar">Desencriptar</button>
+            <button onclick="copiar()" id="copiar">Copiar</button>
+        </section>
+
+        <div>
+            <img id="tesla" src="imagenes/Tesla.png" alt="Muñeco">
+        </div>
+        
+    </main>
+
+    <footer>
+        <div>
+            <a href="https://github.com/Javier-H3"><i id="github" class="fa fa-github"></i></a>
+
+            <a href="https://www.linkedin.com/in/javier-hernandez-programmer/">
+                <i id="linkedin" class="fa fa-linkedin-square"></i>
+            </a>
+        </div>
+
+        <div>
+            <p>&#169 Javier Hernandez V.0.1</p>
+        </div>
+    </footer>
+    
+
+    <script src="script.js" ></script>
+</body>
+</html>
